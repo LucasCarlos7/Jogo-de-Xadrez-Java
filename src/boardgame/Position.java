@@ -1,11 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package boardgame;
 
 public class Position {
-    
+
     private int row;
     private int column;
 
@@ -29,9 +25,9 @@ public class Position {
     public void setColumn(int column) {
         this.column = column;
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         return row + ", " + column;
     }
 }
